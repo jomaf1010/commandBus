@@ -1,0 +1,18 @@
+{
+    "name": "jomaf/commandbus",
+    "description": "Command Bus For Laravel",
+    "authors": [
+        {
+            "name": "jomaf1010",
+            "email": "fontanillajosephjohn@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.4"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Jomaf\\CommandBus\\": "src/"
+        }
+    }
+}
